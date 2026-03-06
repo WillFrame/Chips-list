@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.resize-box {
+    width: 300px;
+    height: 150px;
+    min-width: 150px;
+    border: 2px solid #4a90e2;
+    background: #f5f9ff;
+    border-radius: 8px;
+
+    overflow: auto;
+    resize: horizontal;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.sectionDescription {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}

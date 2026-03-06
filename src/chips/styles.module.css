@@ -1,0 +1,12 @@
+.chips {
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #e6e6e6;
+    display: block;
+}
+
+.chips-text {
+    font-size: 14px;
+    line-height: 1;
+    color: #4a4a4a;
+}
